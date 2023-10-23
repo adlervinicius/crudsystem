@@ -22,6 +22,7 @@
             "error",
             4
         ],
+        "react/prop-types": "off",
         "linebreak-style": [
             "error",
             "unix"
@@ -35,5 +36,6 @@
             "always"
         ],
         "react/react-in-jsx-scope": "off"
+        
     }
 }
