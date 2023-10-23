@@ -6,18 +6,18 @@ import { DarkTheme, LightTheme } from "../../shared/themes";
 interface IThemeContextData {
     themeName: 'Light' | 'Dark',
     toggleTheme: () => void;
-}
+};
 
 interface IAppThemeProviderProps {
     children: React.ReactNode
-}
+};
 
 const ThemeContext = createContext({} as IThemeContextData);
 
 export const useAppThemeContext = () => {
 
     return useContext(ThemeContext);
-}
+};
 
 export const AppThemeProvider: React.FC<IAppThemeProviderProps> = ({ children }) => {
     const [themeName, setThemeName] = useState<'Light' | 'Dark'>('Light');
@@ -40,4 +40,4 @@ export const AppThemeProvider: React.FC<IAppThemeProviderProps> = ({ children })
             </ThemeProvider>
         </ThemeContext.Provider>
     );
-}
+};
