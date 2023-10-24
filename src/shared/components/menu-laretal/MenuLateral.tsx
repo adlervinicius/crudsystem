@@ -19,7 +19,7 @@ import {
 import { useMatch, useNavigate, useResolvedPath } from 'react-router-dom';
 
 //context para abrir e fechar o drawer
-import { useAppDrawerContext } from '../../contexts';
+import { useAppDrawerContext, useAppThemeContext } from '../../contexts';
 
 //interface's
 interface IAppMenuLateralProps {
@@ -63,6 +63,7 @@ export const MenuLateral: React.FC<IAppMenuLateralProps> = ({ children }) => {
     const smDown = useMediaQuery(theme.breakpoints.down('sm'));
 
     const { drawerOptions, isDrawerOpen, toggleDrawerOpen } = useAppDrawerContext();
+    const { toggleTheme } = useAppThemeContext();
 
     return (
         <>
@@ -97,6 +98,16 @@ export const MenuLateral: React.FC<IAppMenuLateralProps> = ({ children }) => {
                                     onClick={smDown ? toggleDrawerOpen : undefined}
                                 />
                             ))}
+                        </List>
+                    </Box>
+                    <Box>
+                        <List component="nav">
+                            <ListItemButton onClick={toggleTheme}>
+                                <ListItemIcon>
+                                    <Icon>dark_mode</Icon>
+                                </ListItemIcon>
+                                <ListItemText primary='Altenar tema' />
+                            </ListItemButton>
                         </List>
                     </Box>
                 </Box>
