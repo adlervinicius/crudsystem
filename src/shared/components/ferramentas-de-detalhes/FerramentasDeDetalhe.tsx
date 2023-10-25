@@ -96,7 +96,7 @@ export const FerramentasDeDetalhe: React.FC<IFerramentasDeDetalheProps> = ({
                     onClick={aoClicarEmSalvarEFechar}
                 >
                     <Typography variant='button' whiteSpace='nowrap' textOverflow='ellipsis' overflow='hidden'>
-                        Salvar e voltar
+                        Salvar e fechar
                     </Typography>
                 </Button>
             )}
