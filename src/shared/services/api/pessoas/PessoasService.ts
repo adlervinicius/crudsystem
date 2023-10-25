@@ -1,5 +1,5 @@
-import { Environment } from "../../../environment";
-import { Api } from "../axios-config";
+import { Environment } from '../../../environment';
+import { Api } from '../axios-config';
 
 interface IDetalhePessoa {
     id: number,
@@ -13,7 +13,7 @@ interface IListagemPessoa {
     nomeCompleto: string,
     email: string,
     cidadeId: number,
-};
+}
 
 type TPessoasComTotalCount = {
     data: IListagemPessoa[];
@@ -90,7 +90,6 @@ const deleteById = async (id: number): Promise<void | Error> => {
         return new Error((error as { message: string }).message || 'Erro ao apagar o registros.');
     }
 };
-
 
 
 export const PessoasService = {
