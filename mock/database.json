@@ -1,20 +1,8 @@
 {
   "pessoas": [
     {
-      "id": 4,
-      "nomeCompleto": "Evelyn F.",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
       "id": 5,
       "nomeCompleto": "Isis F.",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
-      "id": 6,
-      "nomeCompleto": "Adler V.",
       "email": "adler.vinicius@gmail.com",
       "cidadeId": 1
     },

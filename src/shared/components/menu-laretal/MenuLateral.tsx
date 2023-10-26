@@ -82,7 +82,7 @@ export const MenuLateral: React.FC<IAppMenuLateralProps> = ({ children }) => {
                         justifyContent="center"
                     >
                         <Avatar 
-                            src="/static/images/avatar/1.jpg" 
+                            src="https://pbs.twimg.com/profile_images/1717346010811314176/D9t1A7U2_400x400.jpg" 
                             sx={{ height: theme.spacing(12), width: theme.spacing(12) }}
                         />
                     </Box>
