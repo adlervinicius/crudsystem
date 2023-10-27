@@ -4,11 +4,11 @@
       "id": 7,
       "nomeCompleto": "Joao P.",
       "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
+      "cidadeId": "asd"
     },
     {
       "id": 8,
-      "nomeCompleto": "Pedro J.",
+      "nomeCompleto": "Pedro",
       "email": "adler.vinicius@gmail.com",
       "cidadeId": 1
     },
