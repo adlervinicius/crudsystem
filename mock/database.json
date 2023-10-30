@@ -7,16 +7,35 @@
       "cidadeId": 2
     },
     {
-      "nomeCompleto": "Adler 2",
+      "id": 3,
+      "nomeCompleto": "Adler Vinicius",
       "email": "adler@gmail.com",
+      "cidadeId": 4
+    },
+    {
+      "nomeCompleto": "Joao Alves",
+      "email": "joao@gmail.com",
       "cidadeId": 2,
-      "id": 3
+      "id": 4
     }
   ],
   "cidades": [
     {
       "id": 2,
-      "nome": "Sao paulo 2"
+      "nome": "São Paulo"
+    },
+    {
+      "nome": "Curitiba",
+      "id": 3
+    },
+    {
+      "nome": "São José dos Pinhais",
+      "id": 4
+    }
+  ],
+  "auth": [
+    {
+      "accessToken": "aaaaa.bbbb.cccc"
     }
   ]
 }
