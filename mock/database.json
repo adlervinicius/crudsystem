@@ -2,9 +2,9 @@
   "pessoas": [
     {
       "id": 7,
-      "nomeCompleto": "Joao P.",
+      "nomeCompleto": "Adler",
       "email": "adler.vinicius@gmail.com",
-      "cidadeId": "1"
+      "cidadeId": 1
     },
     {
       "id": 8,
@@ -65,12 +65,6 @@
       "nomeCompleto": "Teste 1",
       "email": "email@gmail.com",
       "cidadeId": "1"
-    },
-    {
-      "nomeCompleto": "",
-      "email": "",
-      "cidadeId": "",
-      "id": 18
     },
     {
       "id": 19,
