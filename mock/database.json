@@ -1,76 +1,9 @@
 {
-  "pessoas": [
+  "pessoas": [],
+  "cidades": [
     {
-      "id": 7,
-      "nomeCompleto": "Adler",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
-      "id": 8,
-      "nomeCompleto": "Pedro",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
-      "id": 9,
-      "nomeCompleto": "Evelyn F.",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
-      "id": 10,
-      "nomeCompleto": "Isis F.",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
-      "id": 11,
-      "nomeCompleto": "Adler V.",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
-      "id": 12,
-      "nomeCompleto": "Joao P.",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
-      "id": 13,
-      "nomeCompleto": "Pedro J.",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
-      "id": 14,
-      "nomeCompleto": "Evelyn F.",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
-      "id": 15,
-      "nomeCompleto": "Isis F.",
-      "email": "adler.vinicius@gmail.com",
-      "cidadeId": 1
-    },
-    {
-      "nomeCompleto": "José",
-      "email": "josé@gmail.com",
-      "cidadeId": "1",
-      "id": 16
-    },
-    {
-      "id": 17,
-      "nomeCompleto": "Teste 1",
-      "email": "email@gmail.com",
-      "cidadeId": "1"
-    },
-    {
-      "id": 19,
-      "nomeCompleto": "teste 2",
-      "email": "email@gmail.com",
-      "cidadeId": "1"
+      "id": 2,
+      "nome": "Sao paulo 2"
     }
   ]
 }
