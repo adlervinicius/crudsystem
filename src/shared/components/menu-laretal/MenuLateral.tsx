@@ -110,6 +110,7 @@ export const MenuLateral: React.FC<IAppMenuLateralProps> = ({ children }) => {
                             </ListItemButton>
                         </List>
                     </Box>
+                    <Box display='flex' textAlign='center' justifyContent='center' fontSize={12}>versão 1.0.0</Box>
                 </Box>
             </Drawer>
             <Box height='100vh' marginLeft={smDown ? 0 : theme.spacing(28)}>
