@@ -19,7 +19,7 @@ import {
 import { useMatch, useNavigate, useResolvedPath } from 'react-router-dom';
 
 //context para abrir e fechar o drawer
-import { useAppDrawerContext, useAppThemeContext } from '../../contexts';
+import { useAppDrawerContext, useAppThemeContext, useAuthContext } from '../../contexts';
 
 //interface's
 interface IAppMenuLateralProps {
@@ -64,6 +64,7 @@ export const MenuLateral: React.FC<IAppMenuLateralProps> = ({ children }) => {
 
     const { drawerOptions, isDrawerOpen, toggleDrawerOpen } = useAppDrawerContext();
     const { toggleTheme } = useAppThemeContext();
+    const { logout } = useAuthContext();
 
     return (
         <>
@@ -107,6 +108,14 @@ export const MenuLateral: React.FC<IAppMenuLateralProps> = ({ children }) => {
                                     <Icon>dark_mode</Icon>
                                 </ListItemIcon>
                                 <ListItemText primary='Altenar tema' />
+                            </ListItemButton>
+                        </List>
+                        <List component="nav">
+                            <ListItemButton onClick={logout}>
+                                <ListItemIcon>
+                                    <Icon>logout</Icon>
+                                </ListItemIcon>
+                                <ListItemText primary='sair' />
                             </ListItemButton>
                         </List>
                     </Box>
