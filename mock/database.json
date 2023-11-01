@@ -33,9 +33,8 @@
       "id": 4
     }
   ],
-  "auth": [
+  "auth": 
     {
-      "accessToken": "aaaaa.bbbb.cccc"
+      "accessToken": ""
     }
-  ]
 }
